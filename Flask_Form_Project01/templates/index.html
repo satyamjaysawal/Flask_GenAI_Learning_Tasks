@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breed Info</title>
+</head>
+<body>
+    <h1>Select Breed</h1>
+    <form method="post">
+        {{ form.hidden_tag() }}  {{ form.breed.label }} {{ form.breed(size=30) }}<br>
+        {{ form.submit }}
+    </form>
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>
