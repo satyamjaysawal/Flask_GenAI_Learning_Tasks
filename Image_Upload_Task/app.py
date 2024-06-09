@@ -38,3 +38,27 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+
+# from flask import Flask, request
+
+# app = Flask(__name__)
+
+# @app.route('/upload', methods=['POST'])
+# def upload_file():
+#     if 'file' not in request.files:
+#         return 'No file part'
+    
+#     file = request.files['file']
+#     if file.filename == '':
+#         return 'No selected file'
+    
+#     if file:
+#         file.save(f"/path/to/upload/directory/{file.filename}")
+#         return 'File successfully uploaded'
+
+# if __name__ == '__main__':
+#     app.run(debug=True)
+
+
