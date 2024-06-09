@@ -48,10 +48,10 @@ if __name__ == '__main__':
 # @app.route('/', methods=['GET', 'POST'])
 # def upload_file():
 #     if request.method == 'POST':
-#         if 'file' not in request.files:
+#         if 'dp' not in request.files:
 #             return 'No file part'
         
-#         file = request.files['file']
+#         file = request.files['dp']
 #         if file.filename == '':
 #             return 'No selected file'
         
