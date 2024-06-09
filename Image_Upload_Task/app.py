@@ -51,7 +51,7 @@ if __name__ == '__main__':
 #         if 'file' not in request.files:
 #             return 'No file part'
         
-#         file = request.files['dp']
+#         file = request.files['file']
 #         if file.filename == '':
 #             return 'No selected file'
         
@@ -63,5 +63,3 @@ if __name__ == '__main__':
 
 # if __name__ == '__main__':
 #     app.run(debug=True)
-
-
