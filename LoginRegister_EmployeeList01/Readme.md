@@ -8,6 +8,8 @@ python app.py
 
 
 
+
+
 ![image](https://github.com/satyamjaysawal/Flask_Gen_AI_Repo/assets/108862706/168333a6-9e15-44e0-88ed-d4d3bbf5cdac)
 
 
