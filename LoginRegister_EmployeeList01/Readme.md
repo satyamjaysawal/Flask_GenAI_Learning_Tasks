@@ -1,5 +1,16 @@
 ## Employee Management - Login/Registration - Employee : CRUD 
 
+## Prompt :
+"Write a prompt for this code: A Flask application with routes for user registration, login, and employee management. Each page has HTML templates, such as 'index.html', 'register.html', 'login.html', 'employee_list.html', 'add_employee.html', and 'edit_employee.html'. Forms for user registration and login are implemented using Flask-WTF. SQLAlchemy is used for storing employee details in the database. Flask-Login is used for login session management. For each route, data is fetched from appropriate forms and models, then either stored in the database or displayed. Finally, there's a navigation bar on all pages that redirects the user to appropriate pages."
+
+## -----
+
+
+
+
+
+
+
 ## Install necessary dependencies:
 pip install flask flask_sqlalchemy flask_bcrypt flask_login flask_wtf pymysql email-validator
 
