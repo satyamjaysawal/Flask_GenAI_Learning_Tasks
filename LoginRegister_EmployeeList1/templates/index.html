@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to the Employee Management System</h1>
+        <p class="lead">This is a simple employee management system built with Flask.</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="{{ url_for('employee_list') }}" role="button">View Employees</a>
+    </div>
+{% endblock %}
