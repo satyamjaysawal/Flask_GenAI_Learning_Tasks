@@ -1,5 +1,7 @@
 # Login Register 
 **with css**
-![image](https://github.com/user-attachments/assets/a9dd4d89-9112-4ec1-9f16-f9b5dcbabd9b)
+![image](https://github.com/user-attachments/assets/59d13cf3-0109-42a2-a6d9-4b2d0b8c2349)
 
-![image](https://github.com/user-attachments/assets/8808c039-b4ff-40bf-99eb-64c956af8557)
+
+![image](https://github.com/user-attachments/assets/9dd0235e-7224-4cb5-a6da-d93f01198468)
+
