@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Search</title>
+  </head>
+  <body>
+    <h1>Flight Search</h1>
+    <form method="post" action="{{ url_for('search_flights') }}">
+      {{ form.hidden_tag() }}
+      <div>
+        {{ form.from_city.label }}<br />
+        {{ form.from_city() }}
+      </div>
+      <div>
+        {{ form.to_city.label }}<br />
+        {{ form.to_city() }}
+      </div>
+      <div>
+        {{ form.departure_date.label }}<br />
+        {{ form.departure_date() }}
+      </div>
+      <div>
+        {{ form.return_date.label }}<br />
+        {{ form.return_date() }}
+      </div>
+      <div>
+        {{ form.travel_class.label }}<br />
+        {{ form.travel_class() }}
+      </div>
+      <div>
+        {{ form.special_fare.label }}<br />
+        {{ form.special_fare() }}
+      </div>
+      <div>
+        <button type="submit">Search</button>
+      </div>
+    </form>
+
+    {% if results %}
+    <h2>Search Results:</h2>
+    <ul>
+      {% for result in results %}
+      <li>
+        From: {{ result['flight']['from'] }}<br />
+        To: {{ result['flight']['to'] }}<br />
+        Departure Date: {{ result['flight']['departure_date'] }}<br />
+        Return Date: {{ result['flight']['return_date'] }}<br />
+        Flight Number: {{ result['flight']['flight_number'] }}<br />
+        Airline: {{ result['flight']['airline'] }}<br />
+        Duration: {{ result['flight']['duration'] }}<br />
+        Travel Class: {{ result['travel_class'] }}<br /> <!-- travel-class ko show kar rahe hain -->
+        Special Fare: {{ result['fare'] }} ({{ result['special_fare_selected'] }})<br /> 
+        Special Fare: {{ result['fare'] }}<br />
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </body>
+</html>

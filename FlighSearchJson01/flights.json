@@ -1,0 +1,41 @@
+
+{
+  "from": "Delhi",
+  "from_airport": "Indira Gandhi International Airport",
+  "to": "Mumbai",
+  "to_airport": "Chhatrapati Shivaji Maharaj International Airport",
+  "departure_date": "2024-07-16",
+  "return_date": "2024-07-20",
+  "flight_number": "AI-202",
+  "airline": "Air India",
+  "duration": "2h 30m",
+  "travel-class": {
+      "economy": {
+          "special_fare_option": {
+              "Regular": 8000,
+              "Student": 7500,
+              "Senior Citizen": 7800,
+              "Armed Forces": 7700,
+              "Doctor and Nurses": 7600
+          }
+      },
+      "business": {
+          "special_fare_option": {
+              "Regular": 10000,
+              "Student": 9500,
+              "Senior Citizen": 9800,
+              "Armed Forces": 9700,
+              "Doctor and Nurses": 9600
+          }
+      },
+      "first_class": {
+          "special_fare_option": {
+              "Regular": 12000,
+              "Student": 11000,
+              "Senior Citizen": 11800,
+              "Armed Forces": 11500,
+              "Doctor and Nurses": 11200
+          }
+      }
+  }
+}
