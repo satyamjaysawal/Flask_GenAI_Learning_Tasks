@@ -1,4 +1,4 @@
-Chalo, hum is Streamlit app ko step-by-step Hindi + English mein samajhte hain:
+
 
 ### 1. **Zaroori Libraries Import Karna**
 ```python
