@@ -24,7 +24,9 @@ car_price_prediction/
 ├── predict_price.py               # Code for prediction function
 ├── requirements.txt               # List of required libraries
 └── README.md                      # Project documentation
+
 ```
+---
 
 ## Setup Instructions
 
@@ -92,10 +94,3 @@ Phir web browser mein `http://127.0.0.1:5000/` open karo.
 
 ---
 ---
-
-
-### Instructions:
-1. **Repository URL** ko actual repository link se replace kar do.
-2. **Author Section** mein apna naam daal do.
-
-Is README ko project directory mein **README.md** ke naam se save kar sakte ho. Yeh documentation dusre users ko project samajhne aur use karne mein madad karega! Agar koi aur sawaal ya modification chahiye ho toh batana!
