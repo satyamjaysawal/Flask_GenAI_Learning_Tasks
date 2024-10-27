@@ -11,7 +11,7 @@ Yeh app second-hand cars ke price ko predict karne ke liye machine learning mode
 - Simple aur intuitive user interface.
 
 ## Project Structure
-
+````
 car_price_prediction/
 ├── data/
 │   └── car_data.csv               # CSV file with car sales data
