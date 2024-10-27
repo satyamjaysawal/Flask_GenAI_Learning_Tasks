@@ -83,7 +83,7 @@ Phir web browser mein `http://127.0.0.1:5000/` open karo.
 - **Response**:
 ```json
 {
-    "price": 1234567.89
+    "price": 14062.01
 }
 ```
 
