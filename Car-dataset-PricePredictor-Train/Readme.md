@@ -1,6 +1,10 @@
 ---
 
 
+![Uploading image.png…]()
+
+
+---
 # Car Price Prediction App
 
 Yeh app second-hand cars ke price ko predict karne ke liye machine learning model ka use karta hai. Ismein user-friendly web interface hai jahan users car ki details daal ke estimated price dekh sakte hain.
