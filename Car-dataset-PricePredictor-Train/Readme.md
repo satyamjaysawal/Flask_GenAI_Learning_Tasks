@@ -1,6 +1,6 @@
-Yahan pe ek comprehensive **README.md** file hai jo project ke bare mein details provide karega. Is file mein project setup, usage instructions aur dependencies sab include hain.
+---
 
-```markdown
+
 # Car Price Prediction App
 
 Yeh app second-hand cars ke price ko predict karne ke liye machine learning model ka use karta hai. Ismein user-friendly web interface hai jahan users car ki details daal ke estimated price dekh sakte hain.
@@ -11,7 +11,7 @@ Yeh app second-hand cars ke price ko predict karne ke liye machine learning mode
 - Simple aur intuitive user interface.
 
 ## Project Structure
-```
+
 car_price_prediction/
 ├── data/
 │   └── car_data.csv               # CSV file with car sales data
@@ -90,12 +90,9 @@ Phir web browser mein `http://127.0.0.1:5000/` open karo.
   - scikit-learn
   - flask
 
-## Author
-[Your Name]
+---
+---
 
-## License
-MIT License
-```
 
 ### Instructions:
 1. **Repository URL** ko actual repository link se replace kar do.
