@@ -140,3 +140,27 @@ print(summary["summary"])
 This code efficiently handles both **text summarization** and **Q&A workflows**, making it a powerful tool for extracting and analyzing web content.
 
 ****
+```
+User Input (URL + Task + Query) → Validate URL
+                       ↓ Valid?                           ↓ Invalid
+                  Extract Text                        Return Error
+                       ↓
+            Task = "Summarization"              Task = "Q&A"
+                       ↓                                ↓
+        Chunking + Summarization Chain        Embedding + Retrieval QA Chain
+                       ↓                                ↓
+        Generate Summary                            Generate Answer
+                       ↓                                ↓
+            Token Usage Tracking                Token Usage Tracking
+                       ↓                                ↓
+        Save Response (.docx)                  Save Response (.docx)
+                       ↓                                ↓
+                  Return Response with Downloadable File
+
+```
+
+
+****
+
+
+
